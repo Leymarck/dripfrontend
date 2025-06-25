@@ -8,11 +8,11 @@ import ProductDetail from "../pages/ProductDetail";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />, // O layout principal (com Header e Footer)
+    element: <App />,
     children: [
       { path: "/", element: <Home /> },
       { path: "/produtos", element: <ProductList /> },
-      { path: "/produtos/:productId", element: <ProductDetail /> }, // Rota dinâmica
+      { path: "/produtos/:productId", element: <ProductDetail /> },
     ],
   },
 ]);
