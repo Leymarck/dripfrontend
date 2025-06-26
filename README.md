@@ -58,6 +58,10 @@ code .
 npm install react-router-dom
 ```
 
+```bash
+npm i axios
+```
+
 #### 🧵 TailwindCSS – Possíveis Erros
 Se o TailwindCSS não instalar corretamente, pode ser problema de versão incompatível com o Vite 7. Solução:
 
@@ -91,6 +95,17 @@ npx tailwindcss init -p
   "vite": "^6.3.5"
 } 
 ```
+
+Se mais algum erro ocorrer, veja se é possível instalar
+```bash
+npm install -D tailwindcss@^3.4.1
+```
+
+Depois, tente rodar novamente:
+```bash
+npx tailwindcss init -p
+```
+
 
 🛠 Arquivo tailwind.config.js
 ```js
